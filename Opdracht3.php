@@ -9,6 +9,8 @@
 
 $voedsol = ["aard", "aardbei", "melk" , "yog"];
 $boodschaappen = ["aardappelen", "aardbeien", "3 pakken melk", "yoghurt"];
+$name = $_POST['product'];
+array_push($boodschaappen, $name);
 
 foreach ($boodschaappen as $boodschap) {
     echo "<li>$boodschap</li>";

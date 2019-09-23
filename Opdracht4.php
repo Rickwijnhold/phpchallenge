@@ -1,13 +1,13 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Opdracht 4</title>
+    <title>Formulier</title>
 </head>
 <body>
-<?php
-
-?>
+<form action="opdracht3.php" method="POST">
+    Voeg product toe: <input type="text" name="product" value=""><br>
+    <input type="submit" name="knop" value="verstuur">
+</form>
 </body>
 </html>
